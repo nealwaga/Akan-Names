@@ -19,6 +19,40 @@
 
             <p> All you gotta do is key in your date of birth and your gender... </p>
 
+            <div class="card">
+                <div class="card-body">
+
+                    <h2> Fill in the form below </h2>
+
+                    <div class="set">
+                        <label> Month </label><br />
+                        <input type="text" id="month" placeholder="Month in digits" required /><br /><br />
+                        <label> Day </label><br />
+                        <input type="text" id="day" placeholder="Day in digits" required /><br /><br />
+                        <label> Year </label><br />
+                        <input type="text" id="year" placeholder="Year in digits" required /><br /><br />
+                        <label> Gender </label><br />
+                        <input type="radio" name="gender" id="gender" value="male" checked /> Male
+                        <br />
+                        <input type="radio" name="gender" id="gender" value="female" /> Female
+                        <br /><br />
+                        <input type="submit" class="btn-1" value="Submit" onclick="output()" />
+
+                        <div id="outcome"></div>
+                    </div>
+                    <p id="display"></p>
+
+                </div>
+                <div class="footer">
+                    <p>Akan Names &copy; 2022, All Rights Reserved</p>
+
+                    <script src='js/index.js'></script>
+
+                </div>
+
+                </header>
+            </div>
+
         </div>
 
     </div>

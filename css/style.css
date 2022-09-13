@@ -1,0 +1,202 @@
+/* landing page styles 💅*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.videoInsert {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.85;
+}
+
+.header-content {
+    z-index: 2;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    background: #34b3a0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+@media(max-width:960px) {
+    .container {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.form1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+
+/* program styles*/
+
+.header {
+    background-color: #aecf1c;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border-radius: 6px;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.set {
+    text-align: center;
+    z-index: 2;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.btn-1 {
+    border-radius: 5px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-2 {
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding: 13px 20px;
+    cursor: pointer;
+    float: right;
+    width: 10%;
+}
+
+.forms {
+    display: inline;
+    font-size: large;
+}
+
+.card {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.card-body {
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+#day {
+    border-radius: 6px;
+    padding: 12px;
+    font-size: medium;
+}
+
+#month {
+    border-radius: 6px;
+    padding: 12px;
+    font-size: medium;
+}
+
+#year {
+    border-radius: 6px;
+    padding: 12px;
+    font-size: medium;
+}
+
+.button_link {
+    border-radius: 5px;
+    color: #fff;
+    background: #333;
+    padding: 15px 15px;
+    cursor: pointer;
+    float: right;
+    display: grid;
+}
+
+#outcome {
+    color: #000000;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
